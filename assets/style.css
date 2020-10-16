@@ -1,0 +1,489 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;700&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nomer {
+    font-weight: bold;
+    color: white;
+    width: auto;
+    height: 25px;
+    background-color: #00e676;
+}
+
+.nomer {
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+/* SLIDEBAR */
+
+.sidenav {
+    height: 50%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 15px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: rgb(58, 58, 58);
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    border-bottom: #00e676 5px solid;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* NAVBAR */
+
+.topnav {
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 5px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.logo {
+    position: absolute;
+    margin-top: -70px;
+}
+
+.topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    display: block;
+    color: rgb(58, 58, 58);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.topnav a:hover {
+    border-bottom: #00e676 3px solid;
+
+}
+
+.topnav .iconMenu {
+    display: none;
+}
+
+
+/* 
+BERANDA */
+
+
+.jumbotron {
+    background-image: url(../assets/image/2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+
+.txtIndriTeknikLas {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 5vw;
+}
+
+.txtMenerimaPesanan {
+    text-shadow: 2px 3px 5px rgba(0, 0, 0, 0.5);
+    font-size: 20px;
+}
+
+.call {
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #009bed;
+}
+
+.whatsapp {
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #00e676;
+}
+
+
+.txtGarisPembatas {
+    text-align: center;
+
+}
+
+.garisPembatas {
+    height: 2px;
+    border-width: 0;
+    background-color: #00e676;
+    width: 25%;
+}
+
+
+
+/* TENTANG KAMI */
+
+.content {
+    float: left;
+    width: 75%;
+}
+
+.content h2 {
+    margin-left: 10px;
+}
+
+.pBengkelLas {
+    letter-spacing: 1px;
+    text-align: justify;
+    font-size: 18px;
+    padding: 10px;
+}
+
+aside {
+    float: right;
+    width: 25%;
+}
+
+aside th {
+    text-align: left;
+    padding: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+.card {
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.fotoProfil {
+    margin-left: 50px;
+    max-width: 100%;
+    height: auto;
+    width: fit-content;
+}
+
+table {
+    margin: 0 auto;
+}
+
+
+/* ICON */
+
+.containerUntukIcon {
+    width: 100%;
+    height: 500px;
+    background-image: url(../assets/image/4.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#contentIconRight {
+    float: left;
+    width: 50%;
+}
+
+.contentIconLeft {
+    float: right;
+    width: 50%;
+    height: 500px;
+    background: rgb(255, 255, 255, .2);
+
+}
+
+aside th {
+    text-align: left;
+}
+
+
+/* FLEXBOX UNTUK ICON */
+
+.containerFlexBoxIcon {
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    margin-top: 50px;
+}
+
+.flex-column-icon {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flex-row-icon {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.box-icon {
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.gambar-Flex-icon {
+    width: 25%;
+    margin-bottom: 100px;
+    margin-top: -10px;
+    margin-left: -100px;
+}
+
+.txtDalamFlexIcon {
+    text-align: left;
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    margin-left: -75px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* FLEXBOX GALLERY */
+
+
+* {
+    box-sizing: border-box;
+}
+
+.containerFlexBox {
+    margin-left: 10%;
+    box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.box {
+    border: 1px solid #eceef4;
+    margin: 25px;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.gambar-Flex {
+    width: 100%;
+}
+
+.desFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: auto;
+    background-color: #009bed;
+    height: 150px;
+    align-items: center;
+
+    padding: 10px;
+}
+
+.txtDalamFlex {
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* LIGHTBOX */
+
+
+.overlayFoto .nextKanan {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: 200px;
+
+}
+
+.overlayFoto .nextKiri {
+    position: absolute;
+    top: 50%;
+    margin-left: -80px;
+}
+
+.overlayFoto .close {
+    top: 20%;
+    left: 50%;
+    margin-bottom: -200px;
+    margin-left: -20px;
+    position: absolute;
+    color: white;
+    text-decoration: none;
+}
+
+.overlayFoto img {
+    margin-top: 25%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.overlayFoto {
+    padding: 100px 0;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 9999;
+}
+
+.overlayFoto:target {
+    padding: 5% 25% 25% 25%;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+}
+
+/* KONTAKKAMI */
+
+.containerKontakKami {
+    border: 1px solid #eceef4;
+}
+
+.contentKontakKamiKiri {
+    float: left;
+    width: 50%;
+}
+
+.h3kontakkami {
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: justify;
+    padding: 10px;
+    margin-top: -25px;
+}
+
+.card {
+    padding: 10px;
+}
+
+.contentKontakKamiKanan {
+    float: right;
+    width: 50%;
+    padding-left: 20px;
+}
+
+.contentKontakKamiKanan th {
+    text-align: left;
+    padding: 10px;
+}
+
+/* MENU BOTTOM */
+
+.bottomUl {
+    position: relative;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    border: 1px solid #818181;
+    margin-left: 10px;
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li {
+    text-align: left;
+}
+
+.judulMenu {
+    background-color: #009bed;
+    color: white;
+}
+
+li a:hover {
+    background-color: #00e676;
+    color: white;
+}
+
+/* MAPS */
+
+.google-maps {
+    margin: 15px;
+    position: relative;
+    padding-bottom: 40%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600PX;
+    height: 300PX;
+}
+
+
+/* FOOTER */
+
+.bubbleWhatsapp {
+    right: 0px;
+    margin-right: 25px;
+    position: fixed;
+    top: 80%;
+    z-index: 9999;
+}
+
+footer {
+    padding: 20px;
+    color: white;
+    border: 1px solid #eceef4;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00e676;
+}
